@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.ktree.timezone.model.dao.model.WorldClock">
+		<field name="id" type="int" />
+		<field name="place" type="String" />
+		<field name="timezone" type="Date" />
+		<field name="userid" type="long" />
+	</model>
+</model-hints>

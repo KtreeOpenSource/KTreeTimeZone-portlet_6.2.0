@@ -1,0 +1,400 @@
+
+/*
+ * Author: Vikash@KTree.com
+ * Date  : 26th May 2015
+ */
+
+#portlet_KTreeTimeZone_WAR_KTreeTimeZoneportlet div.alert {
+    display: none !important;
+}
+
+#timezone_table>tr:hover{
+	background:darkgrey
+}
+
+.time-zone-area:hover{
+	background:darkgrey
+}
+
+.xhr, .delimeter, .xmin {
+    color: #000;
+    font-size: 20px;
+}
+
+#_KTreeTimeZone_WAR_KTreeTimeZoneportlet_country_val {
+    border: 1px solid;
+
+}
+
+#timeZone .time-container {
+    position: relative;
+}
+
+#timeZone .xday {
+    color: brown;
+    font-size: 16px;
+    left: 2px;
+    position: absolute;
+    top: 25px;
+}
+
+td#action span {
+    color: #000 !important;
+    position: relative;
+    top: 25px;
+}
+
+#timeZone .xnote {
+    color: tomato;
+    font-family: Arial;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+td#timeZone {
+    height: 63px;
+    width: 50%;
+    padding-bottom: 5px;
+    text-align:left;
+}
+
+.timezone_row > td#action img {
+    position: relative;
+    top: 17px;
+}
+
+#timezone_table tr{
+ 	background: rgb(204,204,204); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(221,221,221,1) 30%, rgba(245,246,246,1) 50%, rgba(204,204,204,1) 73%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(204,204,204,1)), color-stop(30%,rgba(221,221,221,1)), color-stop(50%,rgba(245,246,246,1)), color-stop(73%,rgba(204,204,204,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 30%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 30%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 30%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 30%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+	border-bottom: 0.25px solid #ccc;
+	border-top: 0.25px solid #ccc;
+	box-shadow: 0 3px 6px 0 #101010;
+}
+
+#timezone_table td#place {
+    color: #000;
+    font-size: 16px;
+    padding: 5px;
+    width:40%;
+}
+
+#myTab .selection {
+    background: linear-gradient(to right, #ccc 0px, #ddd 30%, #f5f6f6 50%, #ccc 73%, #ccc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 62px;
+
+}
+
+.add-messgae {
+    color: #000;
+    font-size: 16px;
+}
+
+#myTab {
+    background: none repeat scroll 0 0 #000;
+}
+
+.d {
+    color: #000;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.date {
+    color: #000;
+    font-size: 15px;
+}
+
+.date-title {
+    color: #000;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.date-container {
+	box-shadow: 0 2px 3px 0 #eee;
+    padding-bottom: 5px;
+	border-top: 1px solid #ccc;
+    background: linear-gradient(to right, #ccc 0px, #ddd 30%, #f5f6f6 50%, #ccc 73%, #ccc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.time-zone-area table {
+    width: 100%;
+}
+
+.dt {  
+    font-size: 14px;
+}
+
+.day {
+    font-size: 14px;
+}
+
+.time-zone-area {
+   background: rgb(204,204,204); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(221,221,221,1) 38%, rgba(245,246,246,1) 50%, rgba(204,204,204,1) 73%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(204,204,204,1)), color-stop(38%,rgba(221,221,221,1)), color-stop(50%,rgba(245,246,246,1)), color-stop(73%,rgba(204,204,204,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 38%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 38%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 38%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(204,204,204,1) 0%,rgba(221,221,221,1) 38%,rgba(245,246,246,1) 50%,rgba(204,204,204,1) 73%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+    box-shadow: 0 1px 4px 0 #1e1e1e;
+    padding: 5px;
+    color:#000;
+}
+
+.time-zone-header {
+    background: none repeat scroll 0 0 #000;
+    border: medium solid #000;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    border-bottom:1px solid #fff;
+}
+
+.time-zone-content{
+	background: none repeat scroll 0 0 #000;
+    border: medium solid #000;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.main {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.config {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.time-zone-title-main{
+	padding-left: 30%;
+    white-space:nowrap;
+}
+
+.time-zone-title {
+    padding-left: 15%;
+    white-space:nowrap;
+}
+
+.configurator.icon-cog{
+    /* padding-left: 80px;  */	
+    cursor:pointer;
+}
+
+.time_zone_header,#timeZone,#action  {
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    text-align: center;
+    /* width: 76px; */
+}
+
+.timezone_row:hover{	
+	background-color:#DDD;		
+}
+
+.remove {
+	background: url(../css/images/delete.jpg) left top no-repeat; 
+	float: right !important; 
+	width:20px; 
+	height:20px;
+	margin-right: 30px; 
+	background-position:center !important;
+}
+
+select#_KTTimeZone_WAR_KTTimeZoneportlet_country_val {
+    width: 210px;
+}
+
+#_KTreeTimeZone_WAR_KTreeTimeZoneportlet_country_val {
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #000;
+}
+
+#myTab {
+    border: medium solid #000;
+}
+
+#action img:hover{
+	background: lavender;
+	border-radius: 20px;
+}
+
+
+#go_button:hover {
+    background-color: lavender;
+    border-radius: 20px;
+    height: 33px;
+    padding-left: 7px;
+    width: 32px;
+}
+
+#go_button {
+    background: url("/KTreeTimeZone-portlet/css/images/add.png") no-repeat scroll 2px center / 28px 28px transparent;
+    border: medium none;
+    border-radius: 50%;
+    height: 32px;
+    margin-left: 5px;
+    margin-top: -13px;
+    width: 32px;
+}
+
+#refresh{
+	float: left !important; 
+	margin-right: 30px; 
+	background-position:center !important;
+	margin-bottom:5px;
+	margin-top: -25px !important;
+}
+
+.time-table td {
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    width:50%;
+    
+}
+
+.time-table{
+	color:#000;
+}
+
+.time-zone-area-time {
+    background: none repeat scroll 0 0 #3c3c3c;
+}
+
+table.time-table {
+    border-left: 6px solid #222227;
+    border-right: 6px solid #222227;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 5px;
+}
+
+tr.prev {
+	background: rgb(254,254,254); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,254,254,1) 45%, rgba(198,198,198,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(254,254,254,1)), color-stop(100%,rgba(198,198,198,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(254,254,254,1) 45%,rgba(198,198,198,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(254,254,254,1) 45%,rgba(198,198,198,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(254,254,254,1) 45%,rgba(198,198,198,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(254,254,254,1) 45%,rgba(198,198,198,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#c6c6c6',GradientType=0 ); /* IE6-9 */
+	height:35px;
+}
+
+tr.current{
+	height:40px;
+	box-shadow: 0px 5.25em 16em 0px #000, 0em 1px 8px rgba(0, 0, 0, 0.75);
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+tr.next{    
+	background: rgb(198,198,198); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(198,198,198,1) 0%, rgba(254,254,254,1) 55%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(198,198,198,1)), color-stop(55%,rgba(254,254,254,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(198,198,198,1) 0%,rgba(254,254,254,1) 55%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(198,198,198,1) 0%,rgba(254,254,254,1) 55%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(198,198,198,1) 0%,rgba(254,254,254,1) 55%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(198,198,198,1) 0%,rgba(254,254,254,1) 55%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+    height:35px;
+}
+
+.notation_current {
+    color: #000;
+    display: block;
+    float: right;
+    font-family: comic sans ms;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-top: 6px;
+}
+
+.pre-notation,.next-notation,.notation {
+    color: #000;
+    display: block;
+    float: right;
+    font-family: comic sans ms;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.prevHr,.nextHr,.hr {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.hrs {
+    float: left;
+    font-size: 17px;
+    padding-left: 8px;
+}
+
+.mins{
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.min,.prevmin,.nextMin {
+    float: right;
+    padding-right: 56px;
+     font-size: 30px;
+}
+
+.place {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.time_portlet .button-holder {
+/*     border-radius: 50%;
+    box-shadow: 1px 5px 5px -1px #010101;
+    margin-left: 5px; */
+}
+
+/* RESPONSIVENESS FOR THE CLOCK PORTLE */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.configurator.icon-cog{
+		padding:0;
+		float:right;
+	}
+	
+}
+@media only screen and (max-width:768px){
+/* 	#timeZone .xnote{
+		padding-right:8px;
+	} */
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	#timeZone .xnote{
+			padding-right:100px ;
+		}
+		
+	#timezone_table td#place {
+		    width: 47%;
+		}
+	td#timeZone{text-align:left;}
+	#timeZone .xday{left:0;}
+	
+}

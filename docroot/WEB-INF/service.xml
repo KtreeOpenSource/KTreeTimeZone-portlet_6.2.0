@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+<service-builder package-path="com.ktree.timezone.model.dao">
+	<author>vikash@KTree</author>
+	<namespace>table</namespace>
+
+	<entity name="WorldClock" local-service="true" remote-service="true">
+    	<column name="id" type="int" primary="true" id-type="increment" />
+    	<column name="place" type="String"/>
+		<column name="timezone" type="Date" />
+		<column name="userid" type="long" /> 
+	</entity>
+</service-builder>
